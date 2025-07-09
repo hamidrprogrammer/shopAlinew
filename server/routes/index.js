@@ -6,11 +6,10 @@ const orderRoutes = require('./orderRoutes');
 const userAdminRoutes = require('./userAdminRoutes');
 const reviewRoutes = require('./reviewRoutes');
 const discountRoutes = require('./discountRoutes');
-const settingRoutes = require('./settingRoutes'); // Import setting routes
-// const userRoutes = require('./userRoutes'); // This would be for user's own actions if needed
-// const uploadRoutes = require('./uploadRoutes');
-// const webhookRoutes = require('./webhookRoutes');
-// const adminRoutes = require('./adminRoutes'); // For admin-specific aggregated routes
+const settingRoutes = require('./settingRoutes');
+const adminLogRoutes = require('./adminLogRoutes'); // Added
+const uploadRoutes = require('./uploadRoutes');   // Added
+const webhookRoutes = require('./webhookRoutes'); // Added
 
 const router = express.Router();
 
@@ -19,20 +18,14 @@ const defaultRoutes = [
   { path: '/categories', route: categoryRoutes },
   { path: '/products', route: productRoutes },
   { path: '/orders', route: orderRoutes },
-  { path: '/admin/users', route: userAdminRoutes }, // Admin routes for user management
-  { path: '/reviews', route: reviewRoutes },       // Standalone review routes
-  { path: '/discounts', route: discountRoutes },   // Discount routes (includes admin and user-facing validation)
-  { path: '/settings', route: settingRoutes },     // Store settings routes
-  // { path: '/users', route: userRoutes }, // For user's own profile, etc.
-  // { path: '/uploads', route: uploadRoutes },
-  // { path: '/webhooks', route: webhookRoutes },
-  // { path: '/admin', route: adminRoutes }, // Example: /api/v1/admin/users, /api/v1/admin/orders
+  { path: '/admin/users', route: userAdminRoutes },
+  { path: '/admin/logs', route: adminLogRoutes }, // Added
+  { path: '/reviews', route: reviewRoutes },
+  { path: '/discounts', route: discountRoutes },
+  { path: '/settings', route: settingRoutes },
+  { path: '/uploads', route: uploadRoutes },     // Added
+  { path: '/webhooks', route: webhookRoutes },   // Added
 ];
-
-// You can also define more specific routes if needed, for example, admin routes
-// const adminOnlyRoutes = [
-//   { path: '/admin/dashboard', route: adminDashboardRoutes },
-// ];
 
 defaultRoutes.forEach((route) => {
   router.use(route.path, route.route);
@@ -44,7 +37,7 @@ router.get('/health', (req, res) => {
     status: 'success',
     message: 'API is healthy and running',
     timestamp: new Date().toISOString(),
-    uptime: process.uptime() // Uptime in seconds
+    uptime: process.uptime()
   });
 });
 

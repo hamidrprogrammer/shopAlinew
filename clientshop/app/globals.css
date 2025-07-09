@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Default Next.js theme styles (variables and body style) removed.
+  We will use tailwind.config.js with darkMode: 'class' and next-themes
+  for theme management.
+  Global styles for body, html (like default background and text colors for light/dark)
+  will be applied via Tailwind utility classes on the <body> tag in layout.js,
+  or defined here if necessary, using Tailwind's theme variables.
+*/
+
+/* Add custom global styles or font-face definitions below if needed */
+
+/* Example: Keep .text-balance if useful */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Placeholder for custom font-face definitions if using local fonts */
+/*
+@layer base {
+  @font-face {
+    font-family: 'IranYekanX';
+    src: url('/fonts/IranYekanX-Regular.woff2') format('woff2'),
+         url('/fonts/IranYekanX-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'IranYekanX';
+    src: url('/fonts/IranYekanX-Bold.woff2') format('woff2'),
+         url('/fonts/IranYekanX-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  // Add other weights/styles for IranYekanX as needed
+
+  // Inter is often available via next/font or can be loaded similarly if local
+  // @font-face {
+  //   font-family: 'Inter';
+  //   src: url('/fonts/Inter-Regular.woff2') format('woff2');
+  //   font-weight: normal;
+  //   font-style: normal;
+  //   font-display: swap;
+  // }
+  // @font-face {
+  //   font-family: 'Inter';
+  //   src: url('/fonts/Inter-Bold.woff2') format('woff2');
+  //   font-weight: bold;
+  //   font-style: normal;
+  //   font-display: swap;
+  // }
+}
+*/

@@ -1,0 +1,353 @@
+{
+  "Common": {
+    "viewAll": "View All",
+    "viewAllProducts": "View All Products",
+    "apply": "Apply",
+    "clearAll": "Clear All",
+    "loading": "Loading...",
+    "clearAllFilters": "Clear All Filters",
+    "continueShopping": "Continue Shopping",
+    "processing": "Processing...",
+    "browseAllProducts": "Browse All Products"
+  },
+  "Errors": {
+    "email.invalid": "Invalid email address. Please enter a valid email.",
+    "password.minLength": "Password must be at least 6 characters long.",
+    "loginFailedDefault": "Login failed. Please check your credentials and try again.",
+    "networkError": "Network error. Please check your connection.",
+    "EMAIL_NOT_FOUND": "No account found with this email address.",
+    "INVALID_PASSWORD": "The password you entered is incorrect.",
+    "ACCOUNT_LOCKED": "This account has been temporarily locked due to too many failed login attempts.",
+    "name.minLength": "Name must be at least 2 characters.",
+    "confirmPassword.required": "Please confirm your password.",
+    "passwordsMismatch": "Passwords do not match. Please try again.",
+    "EMAIL_ALREADY_EXISTS": "An account with this email already exists."
+  },
+  "Header": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "profile": "Profile",
+    "cart": "Cart",
+    "search": "Search",
+    "login": "Log In",
+    "wishlist": "Wishlist",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "blog": "Blog"
+  },
+  "Footer": {
+    "storeDescription": "Your destination for modern and quality furniture, designed to inspire.",
+    "newsletter": {
+      "title": "Subscribe to our Newsletter",
+      "emailPlaceholder": "Enter your email",
+      "subscribeButton": "Subscribe"
+    },
+    "quickLinks": {
+      "title": "Quick Links"
+    },
+    "customerService": {
+      "title": "Customer Service",
+      "faq": "FAQ",
+      "shippingPolicy": "Shipping Policy",
+      "refundPolicy": "Refund Policy",
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "contactUs": {
+      "title": "Get In Touch",
+      "address": "123 Furniture Lane, Design City, DC 12345",
+      "email": "contact@onsko.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    "followUs": {
+        "title": "Follow Us"
+    },
+    "copyright": "© {year} ONSKO. All rights reserved."
+  },
+  "HomePage": {
+    "welcome": "Welcome to ONSKO",
+    "description": "Modern furniture, timeless design. Discover your style.",
+    "shopNow": "Shop Collection",
+    "hero": {
+      "alt": "Stylish modern living room with ONSKO furniture",
+      "title": "Crafting Spaces, Inspiring Life.",
+      "subtitle": "Explore our curated collection of contemporary furniture designed to elevate your everyday living.",
+      "ctaButton": "Discover Collection"
+    },
+    "categories": {
+      "title": "Shop by Category",
+      "livingRoom": "Living Room",
+      "bedroom": "Bedroom",
+      "dining": "Dining"
+    },
+    "featuredProducts": {
+      "title": "Featured Products"
+    },
+    "marquee": {
+      "freeShipping": "Free shipping on orders over $150!",
+      "promoCode": "Use code ONSKSALE25 for 25% off selected items.",
+      "newArrivals": "New arrivals weekly - check out the latest designs.",
+      "limitedTime": "Limited time offers - Don't miss out!"
+    }
+  },
+  "ProductsPage": {
+    "title": "All Products",
+    "resultsCount": "{count, plural, =0 {No products} one {# product} other {# products}} found",
+    "noProductsFound": "No products found matching your criteria."
+  },
+  "Filters": {
+    "title": "Filters",
+    "categories": {
+      "title": "Categories",
+      "options": {
+        "allCategories": "All Categories",
+        "livingRoom": "Living Room",
+        "bedroom": "Bedroom",
+        "dining": "Dining",
+        "decor": "Decor",
+        "lighting": "Lighting"
+      }
+    },
+    "price": {
+      "title": "Price Range",
+      "minPlaceholder": "Min price",
+      "maxPlaceholder": "Max price"
+    },
+    "colors": {
+      "title": "Colors"
+    },
+    "materials": {
+      "title": "Materials"
+    }
+  },
+  "Sorting": {
+    "label": "Sort by",
+    "options": {
+      "default": "Default",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "nameAsc": "Name: A to Z",
+      "nameDesc": "Name: Z to A",
+      "newest": "Newest",
+      "popularity": "Popularity"
+    }
+  },
+  "Pagination": {
+    "navigationLabel": "Pagination Navigation",
+    "previous": "Previous",
+    "next": "Next",
+    "previousPage": "Go to previous page",
+    "nextPage": "Go to next page",
+    "goToPage": "Go to page"
+  },
+  "ProductDetailPage": {
+    "title": "Product Details",
+    "productNotFound": "Product not found.",
+    "reviewsLink": "reviews",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "inStock": "{count} in stock",
+    "outOfStock": "Out of Stock",
+    "share": "Share",
+    "customerReviews": {
+      "title": "Customer Reviews",
+      "seeAll": "See all {count} reviews",
+      "addReviewTitle": "Write a Review",
+      "yourRating": "Your Rating",
+      "yourComment": "Your Comment",
+      "commentPlaceholder": "Tell us what you think...",
+      "submitReview": "Submit Review"
+    },
+    "relatedProducts": {
+      "title": "You Might Also Like"
+    }
+  },
+  "CartPage": {
+    "title": "Your Shopping Cart",
+    "itemSingular": "item",
+    "itemPlural": "items",
+    "emptyCart": {
+      "title": "Your Cart is Empty",
+      "message": "Looks like you haven't added anything to your cart yet. Start browsing to find something you love!",
+      "browseProducts": "Browse Products"
+    },
+    "unitPrice": "Unit Price",
+    "decreaseQuantity": "Decrease quantity", // Reused
+    "increaseQuantity": "Increase quantity", // Reused
+    "removeItem": "Remove item",
+    "clearCart": "Clear Cart",
+    "orderSummary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal ({count} items)",
+      "shipping": "Shipping",
+      "shippingCost": "Calculated at checkout",
+      "tax": "Tax",
+      "total": "Total",
+      "proceedToCheckout": "Proceed to Checkout"
+    }
+  },
+  "CheckoutPage": {
+    "title": "Checkout",
+    "cartEmptyRedirect": {
+      "title": "Your Cart is Empty",
+      "message": "You will be redirected to your cart to add items before proceeding to checkout.",
+      "returnToCart": "Return to Cart"
+    },
+    "shippingDetails": {
+      "title": "Shipping & Contact Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "address": "Street Address",
+      "addressPlaceholder": "Street name and house number",
+      "apartment": "Apartment, suite, etc. (Optional)",
+      "apartmentPlaceholder": "Apt, suite, unit, building, floor, etc.",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "company": "Company (Optional)",
+      "companyPlaceholder": "Company name",
+      "orderNotes": "Order Notes (Optional)",
+      "orderNotesPlaceholder": "Notes about your order, e.g. special delivery instructions."
+    },
+    "payment": {
+      "title": "Payment Method",
+      "placeholder": "Payment gateway integration will appear here."
+    },
+    "orderSummary": {
+      "title": "Order Summary", // Reused
+      "subtotal": "Subtotal ({count} items)", // Reused
+      "shipping": "Shipping", // Reused
+      "shippingCost": "Calculated at checkout", // Reused
+      "total": "Total", // Reused
+      "placeOrderButton": "Place Order & Proceed to Payment"
+    },
+    "orderPlacedSuccessfully": "Order placed successfully! (Simulation)"
+  },
+  "LoginPage": {
+    "title": "Log in to your Account",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPasswordLink": "Forgot password?",
+    "loginButton": "Log In",
+    "noAccountPrompt": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "orContinueWith": "Or continue with",
+    "continueWithGoogle": "Continue with Google"
+  },
+  "RegisterPage": {
+    "title": "Create your Account",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address", // Reused
+    "emailPlaceholder": "you@example.com", // Reused
+    "passwordLabel": "Password", // Reused
+    "passwordPlaceholder": "Create a password (min. 6 characters)",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "registerButton": "Create Account",
+    "alreadyHaveAccountPrompt": "Already have an account?",
+    "loginLink": "Log in", // Reused
+    "registrationSuccessfulPlaceholder": "Registration successful! Please log in. (Simulation)"
+  },
+  "ProfilePage": {
+    "title": "My Profile",
+    "guest": "Guest",
+    "logoutButton": "Log Out",
+    "tabs": {
+      "myOrders": "My Orders",
+      "myAddresses": "My Addresses",
+      "accountSettings": "Account Settings"
+    },
+    "orders": {
+      "title": "Your Orders",
+      "noOrders": "You haven't placed any orders yet.",
+      "orderId": "Order ID",
+      "date": "Date",
+      "total": "Total", // Reused
+      "status": {
+        "delivered": "Delivered",
+        "processing": "Processing", // Reused from Common
+        "shipped": "Shipped",
+        "cancelled": "Cancelled"
+      },
+      "viewDetails": "View Details"
+    },
+    "addresses": {
+      "title": "Your Addresses",
+      "addNew": "Add New Address",
+      "default": "Default" // Reused from Sorting
+    },
+    "accountSettings": {
+      "title": "Account Settings", // Reused from ProfilePage.tabs
+      "profileInfo": "Profile Information",
+      "name": "Name",
+      "email": "Email", // Reused
+      "editProfile": "Edit Profile",
+      "changePasswordTitle": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "updatePasswordButton": "Update Password",
+      "passwordChangeSuccessPlaceholder": "Password changed successfully! (Simulation)"
+    }
+  },
+  "WishlistPage": {
+    "title": "My Wishlist",
+    "emptyWishlist": {
+      "title": "Your Wishlist is Empty",
+      "message": "Looks like you haven't added any items to your wishlist yet. Browse our products and save your favorites!",
+      "browseProducts": "Discover Products"
+    },
+    "authRequired": {
+        "title": "Login Required",
+        "message": "Please log in to view your wishlist.",
+        "loginButton": "Go to Login"
+    },
+    "removeButton": "Remove",
+    "addToCartButton": "Add to Cart", // Reused
+    "addedToCartAlert": "added to your cart!"
+  },
+  "SearchPage": {
+    "title": "Search Results",
+    "searchFor": "Search Results for: \"{query}\"",
+    "resultsFound": "{count, plural, =0 {No results} one {# result} other {# results}} found.",
+    "noResults": "No products found for \"{query}\". Try a different search term.",
+    "enterSearchTerm": "Please enter a search term to see results."
+  },
+  "AboutPage": {
+    "title": "About ONSKO"
+  },
+  "SearchPage": { // Ensure this is merged correctly or updated if SearchPage object already exists
+    "title": "Search Results",
+    "searchFor": "Search Results for: \"{query}\"",
+    "resultsFound": "{count, plural, =0 {No results} one {# result} other {# results}} found.",
+    "noResults": "No products found for \"{query}\". Try a different search term or browse all products.", // More helpful message
+    "enterSearchTerm": "Please enter a search term to see results."
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "sendMessage": "Send Message",
+    "contactInfo": "Contact Information",
+    "form": {
+        "nameLabel": "Your Name",
+        "emailLabel": "Your Email",
+        "messageLabel": "Your Message",
+        "messagePlaceholder": "How can we help you?",
+        "submitSuccess": "Your message has been sent successfully! We'll get back to you soon.",
+        "submitError": "Failed to send message. Please try again later."
+    }
+  },
+  "FAQPage": {
+    "title": "Frequently Asked Questions"
+  }
+  // Admin translations would go into a separate file or namespace if large enough
+}

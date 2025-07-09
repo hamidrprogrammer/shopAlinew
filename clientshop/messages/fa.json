@@ -1,0 +1,350 @@
+{
+  "Common": {
+    "viewAll": "مشاهده همه",
+    "viewAllProducts": "مشاهده تمام محصولات",
+    "apply": "اعمال",
+    "clearAll": "پاک کردن همه",
+    "loading": "در حال بارگذاری...",
+    "clearAllFilters": "پاک کردن همه فیلترها",
+    "continueShopping": "ادامه خرید",
+    "processing": "در حال پردازش...",
+    "browseAllProducts": "مرور همه محصولات"
+  },
+  "Errors": {
+    "email.invalid": "آدرس ایمیل نامعتبر است. لطفاً یک ایمیل معتبر وارد کنید.",
+    "password.minLength": "رمز عبور باید حداقل ۶ کاراکتر باشد.",
+    "loginFailedDefault": "ورود ناموفق بود. لطفاً اطلاعات خود را بررسی کرده و دوباره تلاش کنید.",
+    "networkError": "خطای شبکه. لطفاً اتصال خود را بررسی کنید.",
+    "EMAIL_NOT_FOUND": "حسابی با این ایمیل یافت نشد.",
+    "INVALID_PASSWORD": "رمز عبور وارد شده صحیح نیست.",
+    "ACCOUNT_LOCKED": "این حساب به دلیل تلاش‌های ناموفق زیاد برای ورود، موقتاً قفل شده است.",
+    "name.minLength": "نام باید حداقل ۲ کاراکتر باشد.",
+    "confirmPassword.required": "لطفاً رمز عبور خود را تأیید کنید.",
+    "passwordsMismatch": "رمزهای عبور مطابقت ندارند. لطفاً دوباره تلاش کنید.",
+    "EMAIL_ALREADY_EXISTS": "حسابی با این ایمیل از قبل موجود است."
+  },
+  "Header": {
+    "home": "خانه",
+    "products": "محصولات",
+    "about": "درباره ما",
+    "contact": "تماس با ما",
+    "profile": "پروفایل",
+    "cart": "سبد خرید",
+    "search": "جستجو",
+    "login": "ورود",
+    "wishlist": "علاقه‌مندی‌ها",
+    "openMenu": "باز کردن منو",
+    "closeMenu": "بستن منو",
+    "toggleTheme": "تغییر پوسته",
+    "blog": "وبلاگ"
+  },
+  "Footer": {
+    "storeDescription": "مقصد شما برای مبلمان مدرن و با کیفیت، طراحی شده برای الهام بخشیدن.",
+    "newsletter": {
+      "title": "در خبرنامه ما عضو شوید",
+      "emailPlaceholder": "ایمیل خود را وارد کنید",
+      "subscribeButton": "عضویت"
+    },
+    "quickLinks": {
+      "title": "لینک‌های سریع"
+    },
+    "customerService": {
+      "title": "خدمات مشتریان",
+      "faq": "سوالات متداول",
+      "shippingPolicy": "سیاست ارسال",
+      "refundPolicy": "سیاست بازگشت وجه",
+      "termsConditions": "شرایط و ضوابط",
+      "privacyPolicy": "سیاست حفظ حریم خصوصی"
+    },
+    "contactUs": {
+      "title": "با ما در تماس باشید",
+      "address": "خیابان مبلمان، پلاک ۱۲۳، شهر طراحی، کد پستی ۱۲۳۴۵",
+      "email": "contact@onsko.com",
+      "phone": "+۱ (۵۵۵) ۱۲۳-۴۵۶۷"
+    },
+    "followUs": {
+        "title": "ما را دنبال کنید"
+    },
+    "copyright": "© {year} ONSKO. تمامی حقوق محفوظ است."
+  },
+  "HomePage": {
+    "welcome": "به ONSKO خوش آمدید",
+    "description": "مبلمان مدرن، طراحی جاودانه. سبک خود را کشف کنید.",
+    "shopNow": "مشاهده کلکسیون",
+    "hero": {
+      "alt": "اتاق نشیمن مدرن و شیک با مبلمان ONSKO",
+      "title": "خلق فضا، الهام‌بخش زندگی.",
+      "subtitle": "مجموعه منتخب ما از مبلمان معاصر را که برای ارتقای زندگی روزمره شما طراحی شده است، کاوش کنید.",
+      "ctaButton": "مشاهده کلکسیون"
+    },
+    "categories": {
+      "title": "خرید بر اساس دسته‌بندی",
+      "livingRoom": "اتاق نشیمن",
+      "bedroom": "اتاق خواب",
+      "dining": "ناهارخوری"
+    },
+    "featuredProducts": {
+      "title": "محصولات ویژه"
+    },
+    "marquee": {
+      "freeShipping": "ارسال رایگان برای سفارشات بالای ۱۵۰ دلار!",
+      "promoCode": "از کد ONSKSALE25 برای ۲۵٪ تخفیف روی محصولات منتخب استفاده کنید.",
+      "newArrivals": "محصولات جدید هفتگی - آخرین طرح‌ها را بررسی کنید.",
+      "limitedTime": "پیشنهادات با مدت محدود - از دست ندهید!"
+    }
+  },
+  "ProductsPage": {
+    "title": "همه محصولات",
+    "resultsCount": "{count, plural, =0 {هیچ محصولی یافت نشد} one {# محصول} other {# محصول}} یافت شد",
+    "noProductsFound": "محصولی مطابق با معیارهای شما یافت نشد."
+  },
+  "Filters": {
+    "title": "فیلترها",
+    "categories": {
+      "title": "دسته‌بندی‌ها",
+      "options": {
+        "allCategories": "همه دسته‌بندی‌ها",
+        "livingRoom": "اتاق نشیمن",
+        "bedroom": "اتاق خواب",
+        "dining": "ناهارخوری",
+        "decor": "دکور",
+        "lighting": "روشنایی"
+      }
+    },
+    "price": {
+      "title": "محدوده قیمت",
+      "minPlaceholder": "حداقل قیمت",
+      "maxPlaceholder": "حداکثر قیمت"
+    },
+    "colors": {
+      "title": "رنگ‌ها"
+    },
+    "materials": {
+      "title": "جنس‌ها"
+    }
+  },
+  "Sorting": {
+    "label": "مرتب‌سازی بر اساس",
+    "options": {
+      "default": "پیش‌فرض",
+      "priceAsc": "قیمت: کم به زیاد",
+      "priceDesc": "قیمت: زیاد به کم",
+      "nameAsc": "نام: الف تا ی",
+      "nameDesc": "نام: ی تا الف",
+      "newest": "جدیدترین",
+      "popularity": "محبوبیت"
+    }
+  },
+  "Pagination": {
+    "navigationLabel": "ناوبری صفحات",
+    "previous": "قبلی",
+    "next": "بعدی",
+    "previousPage": "رفتن به صفحه قبلی",
+    "nextPage": "رفتن به صفحه بعدی",
+    "goToPage": "رفتن به صفحه"
+  },
+  "ProductDetailPage": {
+    "title": "جزئیات محصول",
+    "productNotFound": "محصول یافت نشد.",
+    "reviewsLink": "نظر",
+    "decreaseQuantity": "کاهش تعداد",
+    "increaseQuantity": "افزایش تعداد",
+    "addToCart": "افزودن به سبد خرید",
+    "addToWishlist": "افزودن به علاقه‌مندی‌ها",
+    "inStock": "{count} عدد در انبار",
+    "outOfStock": "موجود نیست",
+    "share": "اشتراک‌گذاری",
+    "customerReviews": {
+      "title": "نظرات مشتریان",
+      "seeAll": "مشاهده همه {count} نظر",
+      "addReviewTitle": "ثبت نظر جدید",
+      "yourRating": "امتیاز شما",
+      "yourComment": "نظر شما",
+      "commentPlaceholder": "نظر خود را بنویسید...",
+      "submitReview": "ارسال نظر"
+    },
+    "relatedProducts": {
+      "title": "شاید همچنین بپسندید"
+    }
+  },
+  "CartPage": {
+    "title": "سبد خرید شما",
+    "itemSingular": "قلم",
+    "itemPlural": "قلم",
+    "emptyCart": {
+      "title": "سبد خرید شما خالی است",
+      "message": "به نظر می‌رسد هنوز هیچ محصولی به سبد خرید خود اضافه نکرده‌اید. برای پیدا کردن چیزی که دوست دارید، شروع به مرور محصولات کنید!",
+      "browseProducts": "مرور محصولات"
+    },
+    "unitPrice": "قیمت واحد",
+    "removeItem": "حذف آیتم",
+    "clearCart": "خالی کردن سبد",
+    "orderSummary": {
+      "title": "خلاصه سفارش",
+      "subtotal": "جمع کل ({count} قلم)",
+      "shipping": "هزینه ارسال",
+      "shippingCost": "در تسویه حساب محاسبه می‌شود",
+      "tax": "مالیات",
+      "total": "مجموع نهایی",
+      "proceedToCheckout": "ادامه جهت تسویه حساب"
+    }
+  },
+  "CheckoutPage": {
+    "title": "تسویه حساب",
+    "cartEmptyRedirect": {
+      "title": "سبد خرید شما خالی است",
+      "message": "برای افزودن محصول به سبد خرید و ادامه تسویه حساب، به صفحه سبد خرید هدایت خواهید شد.",
+      "returnToCart": "بازگشت به سبد خرید"
+    },
+    "shippingDetails": {
+      "title": "اطلاعات تماس و آدرس ارسال",
+      "firstName": "نام",
+      "lastName": "نام خانوادگی",
+      "email": "آدرس ایمیل",
+      "phone": "شماره تلفن",
+      "address": "آدرس خیابان",
+      "addressPlaceholder": "نام خیابان و شماره پلاک",
+      "apartment": "واحد، آپارتمان و ... (اختیاری)",
+      "apartmentPlaceholder": "واحد، طبقه، ساختمان و ...",
+      "city": "شهر",
+      "postalCode": "کد پستی",
+      "country": "کشور",
+      "company": "شرکت (اختیاری)",
+      "companyPlaceholder": "نام شرکت",
+      "orderNotes": "یادداشت‌های سفارش (اختیاری)",
+      "orderNotesPlaceholder": "توضیحات مربوط به سفارش شما، مثلاً دستورالعمل‌های خاص تحویل."
+    },
+    "payment": {
+      "title": "روش پرداخت",
+      "placeholder": "بخش انتخاب روش پرداخت در اینجا نمایش داده خواهد شد."
+    },
+    "orderSummary": {
+      "title": "خلاصه سفارش", // Reused
+      "subtotal": "جمع کل ({count} قلم)", // Reused
+      "shipping": "هزینه ارسال", // Reused
+      "shippingCost": "در تسویه حساب محاسبه می‌شود", // Reused
+      "total": "مجموع نهایی", // Reused
+      "placeOrderButton": "ثبت سفارش و پرداخت"
+    },
+    "orderPlacedSuccessfully": "سفارش با موفقیت ثبت شد! (شبیه‌سازی)"
+  },
+  "LoginPage": {
+    "title": "ورود به حساب کاربری",
+    "emailLabel": "آدرس ایمیل",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور خود را وارد کنید",
+    "forgotPasswordLink": "فراموشی رمز عبور؟",
+    "loginButton": "ورود",
+    "noAccountPrompt": "حساب کاربری ندارید؟",
+    "signUpLink": "ثبت نام کنید",
+    "orContinueWith": "یا ادامه دهید با",
+    "continueWithGoogle": "ادامه با گوگل"
+  },
+  "RegisterPage": {
+    "title": "ایجاد حساب کاربری",
+    "nameLabel": "نام و نام خانوادگی",
+    "namePlaceholder": "نام کامل خود را وارد کنید",
+    "emailLabel": "آدرس ایمیل", // Reused
+    "emailPlaceholder": "you@example.com", // Reused
+    "passwordLabel": "رمز عبور", // Reused
+    "passwordPlaceholder": "یک رمز عبور ایجاد کنید (حداقل ۶ کاراکتر)",
+    "confirmPasswordLabel": "تکرار رمز عبور",
+    "confirmPasswordPlaceholder": "رمز عبور خود را تکرار کنید",
+    "registerButton": "ایجاد حساب",
+    "alreadyHaveAccountPrompt": "قبلاً ثبت نام کرده‌اید؟",
+    "loginLink": "وارد شوید", // Reused
+    "registrationSuccessfulPlaceholder": "ثبت نام موفقیت آمیز بود! لطفا وارد شوید. (شبیه‌سازی)"
+  },
+  "ProfilePage": {
+    "title": "پروفایل من",
+    "guest": "کاربر مهمان",
+    "logoutButton": "خروج از حساب",
+    "tabs": {
+      "myOrders": "سفارشات من",
+      "myAddresses": "آدرس‌های من",
+      "accountSettings": "تنظیمات حساب"
+    },
+    "orders": {
+      "title": "سفارشات شما",
+      "noOrders": "شما هنوز هیچ سفارشی ثبت نکرده‌اید.",
+      "orderId": "شناسه سفارش",
+      "date": "تاریخ",
+      "total": "مجموع", // Reused
+      "status": {
+        "delivered": "تحویل داده شده",
+        "processing": "در حال پردازش", // Reused from Common
+        "shipped": "ارسال شده",
+        "cancelled": "لغو شده"
+      },
+      "viewDetails": "مشاهده جزئیات"
+    },
+    "addresses": {
+      "title": "آدرس‌های شما",
+      "addNew": "افزودن آدرس جدید",
+      "default": "پیش‌فرض" // Reused from Sorting
+    },
+    "accountSettings": {
+      "title": "تنظیمات حساب", // Reused from ProfilePage.tabs
+      "profileInfo": "اطلاعات پروفایل",
+      "name": "نام",
+      "email": "ایمیل", // Reused
+      "editProfile": "ویرایش پروفایل",
+      "changePasswordTitle": "تغییر رمز عبور",
+      "currentPassword": "رمز عبور فعلی",
+      "newPassword": "رمز عبور جدید",
+      "confirmNewPassword": "تکرار رمز عبور جدید",
+      "updatePasswordButton": "به‌روزرسانی رمز عبور",
+      "passwordChangeSuccessPlaceholder": "رمز عبور با موفقیت تغییر کرد! (شبیه‌سازی)"
+    }
+  },
+  "WishlistPage": {
+    "title": "لیست علاقه‌مندی‌های من",
+    "emptyWishlist": {
+      "title": "لیست علاقه‌مندی‌های شما خالی است",
+      "message": "به نظر می‌رسد هنوز هیچ موردی را به علاقه‌مندی‌های خود اضافه نکرده‌اید. محصولات ما را مرور کنید و موارد مورد علاقه خود را ذخیره کنید!",
+      "browseProducts": "کشف محصولات"
+    },
+    "authRequired": {
+        "title": "نیاز به ورود",
+        "message": "لطفاً برای مشاهده لیست علاقه‌مندی‌های خود وارد شوید.",
+        "loginButton": "رفتن به صفحه ورود"
+    },
+    "removeButton": "حذف",
+    "addToCartButton": "افزودن به سبد", // Reused
+    "addedToCartAlert": "به سبد خرید شما اضافه شد!"
+  },
+  "SearchPage": {
+    "title": "نتایج جستجو",
+    "searchFor": "نتایج جستجو برای: \"{query}\"",
+    "resultsFound": "{count, plural, =0 {هیچ نتیجه‌ای یافت نشد} one {# نتیجه} other {# نتیجه}} یافت شد.",
+    "noResults": "هیچ محصولی برای \"{query}\" یافت نشد. لطفاً عبارت دیگری را جستجو کنید.",
+    "enterSearchTerm": "لطفاً یک عبارت برای جستجو وارد کنید."
+  },
+  "AboutPage": {
+    "title": "درباره ONSKO"
+  },
+  "SearchPage": { // Ensure this is merged correctly or updated if SearchPage object already exists
+    "title": "نتایج جستجو",
+    "searchFor": "نتایج جستجو برای: \"{query}\"",
+    "resultsFound": "{count, plural, =0 {هیچ نتیجه‌ای یافت نشد} one {# نتیجه} other {# نتیجه}} یافت شد.",
+    "noResults": "هیچ محصولی برای \"{query}\" یافت نشد. لطفاً عبارت دیگری را جستجو کنید یا همه محصولات را مرور کنید.", // More helpful
+    "enterSearchTerm": "لطفاً یک عبارت برای جستجو وارد کنید."
+  },
+  "ContactPage": {
+    "title": "تماس با ما",
+    "sendMessage": "ارسال پیام",
+    "contactInfo": "اطلاعات تماس",
+    "form": {
+        "nameLabel": "نام شما",
+        "emailLabel": "ایمیل شما",
+        "messageLabel": "پیام شما",
+        "messagePlaceholder": "چطور می‌توانیم کمکتان کنیم؟",
+        "submitSuccess": "پیام شما با موفقیت ارسال شد! به زودی با شما تماس خواهیم گرفت.",
+        "submitError": "ارسال پیام ناموفق بود. لطفاً بعداً دوباره تلاش کنید."
+    }
+  },
+  "FAQPage": {
+    "title": "سوالات متداول"
+  }
+}
